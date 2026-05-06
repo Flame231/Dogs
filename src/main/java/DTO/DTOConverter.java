@@ -1,7 +1,8 @@
 package DTO;
 import models.Dog;
 
-public class DTOConverter {
+public class DTOConverter<T,R> {
+
     public static Dog toEntity(DogDTO dogDTO) {
         return Dog.builder().id(dogDTO.getId()).name(dogDTO.getName())
                 .type(dogDTO.getType()).build();

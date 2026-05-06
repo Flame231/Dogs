@@ -1,0 +1,13 @@
+[INFO      ] 2026-05-07 00:53:31.435 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 00:53:31.478 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 00:53:31.509 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 00:53:31.720 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 00:53:31.722 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 00:53:31.723 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 00:53:31.723 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 00:53:31.723 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 00:53:31.724 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 00:53:32.029 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 00:53:32.739 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 00:53:32.751 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 00:53:33.110 [main] UserDAOImpl - User with login login not found

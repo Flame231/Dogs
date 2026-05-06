@@ -9,7 +9,7 @@ import models.Dog;
 import java.util.List;
 
 public class DogServiceImpl implements DogService {
-    DogDAO dogDAO = new DogDAOImpl();
+    private final DogDAO dogDAO = new DogDAOImpl();
 
     @Override
     public List<DogDTO> getAllDogs(int currentPage, int dogsPerPage) {

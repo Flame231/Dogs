@@ -50,17 +50,22 @@
             <version>4.0.1</version>
             <scope>provided</scope>
         </dependency>
-
-        <dependency>
-            <groupId>org.liquibase</groupId>
-            <artifactId>liquibase-core</artifactId>
-            <version>4.27.0</version>
-        </dependency>
     </dependencies>
 
     <build>
         <finalName>dog</finalName>
         <plugins>
+            <plugin>
+                <groupId>org.liquibase</groupId>
+                <artifactId>liquibase-maven-plugin</artifactId>
+                <version>4.27.0</version>
+                <configuration>
+                    <changeLogFile>db/changelog/changelog-master.xml</changeLogFile>
+                    <propertyFile>liquibase.properties</propertyFile>
+                    <searchPath>src/main/resources/</searchPath>
+                </configuration>
+            </plugin>
+
             <!-- Один единственный плагин компилятора -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -91,18 +96,18 @@
                 </configuration>
             </plugin>
 
-            <plugin>
-                <groupId>org.liquibase</groupId>
-                <artifactId>liquibase-maven-plugin</artifactId>
-                <version>4.27.0</version>
-                <configuration>
-                    <changeLogFile>src/main/resources/changelog-master.xml</changeLogFile>
-                    <url>jdbc:mysql://localhost:3306/dogs_db?createDatabaseIfNotExist=true</url>
-                    <username>root</username>
-                    <password>1234</password>
-                    <driver>com.mysql.cj.jdbc.Driver</driver>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.liquibase</groupId>-->
+<!--                <artifactId>liquibase-maven-plugin</artifactId>-->
+<!--                <version>4.27.0</version>-->
+<!--                <configuration>-->
+<!--                    <changeLogFile>src/main/resources/db/changelog/changelog-master.xml</changeLogFile>-->
+<!--                    <url>jdbc:mysql://localhost:3306/dogs_db?createDatabaseIfNotExist=true</url>-->
+<!--                    <username>root</username>-->
+<!--                    <password>12345</password>-->
+<!--                    <driver>com.mysql.cj.jdbc.Driver</driver>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 </project>

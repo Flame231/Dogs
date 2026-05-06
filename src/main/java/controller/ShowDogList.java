@@ -15,7 +15,7 @@ import java.util.List;
 @WebServlet("/ShowDogList")
 public class ShowDogList extends HttpServlet {
     public static final int DOGS_PER_PAGE= 10;
-    DogService dogService = new DogServiceImpl();
+    private final DogService dogService = new DogServiceImpl();
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Integer dogsCount = dogService.dogsCount();

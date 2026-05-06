@@ -7,6 +7,6 @@
         http://www.liquibase.org/xml/ns/dbchangelog
         https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.0.xsd">
 
-    <include file="01-creationOfDB.xml"/>
+    <include file="db/changelog/01-creationOfDB.xml"/>
 
 </databaseChangeLog>

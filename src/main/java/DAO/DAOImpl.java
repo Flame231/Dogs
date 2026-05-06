@@ -6,8 +6,8 @@ import utils.HibernateUtil;
 import java.io.Serializable;
 
 public class DAOImpl<T> implements DAO<T> {
-    EntityManager em = HibernateUtil.getEntityManager();
-    Class<T> tlass;
+    protected EntityManager em = HibernateUtil.getEntityManager();
+    private final Class<T> tlass;
 
     public DAOImpl(Class<T> tlass) {
         this.tlass = tlass;

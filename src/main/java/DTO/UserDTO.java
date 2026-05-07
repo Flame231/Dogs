@@ -15,8 +15,4 @@ public class UserDTO {
 
     private String login;
 
-    private LocalDateTime registrationTime;
-
-    private LocalDateTime authorizationTime;
-
 }

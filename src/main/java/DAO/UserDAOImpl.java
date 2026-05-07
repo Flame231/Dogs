@@ -16,7 +16,6 @@ public class UserDAOImpl extends DAOImpl<User> implements UserDAO {
     private static final Logger log = LogManager.getLogger(UserDAOImpl.class);
 
 
-
     @Override
     public List<User> getAllUsers() {
         return em.createQuery("from User ", User.class).getResultList();

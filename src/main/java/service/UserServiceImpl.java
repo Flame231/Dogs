@@ -12,7 +12,6 @@ import lombok.extern.log4j.Log4j2;
 import models.User;
 import utils.EntityConverter;
 
-import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 

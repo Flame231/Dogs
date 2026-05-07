@@ -2,7 +2,6 @@ package service;
 
 import DAO.DogDAO;
 import DAO.DogDAOImpl;
-import DTO.DTOConverter;
 import DTO.DogDTO;
 import models.Dog;
 import utils.EntityConverter;

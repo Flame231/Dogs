@@ -1,8 +1,9 @@
 package connector;
 
 import javax.servlet.*;
+import javax.servlet.annotation.WebFilter;
 import java.io.IOException;
-
+@WebFilter("/*")
 public class RequestFilter implements Filter {
 
     @Override

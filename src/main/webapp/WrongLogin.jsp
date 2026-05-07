@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: User
-  Date: 07.05.2026
-  Time: 05:56
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page isErrorPage="true" %>
 <!DOCTYPE html>
 <html>

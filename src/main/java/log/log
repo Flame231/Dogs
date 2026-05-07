@@ -11,3 +11,600 @@
 [INFO      ] 2026-05-07 00:53:32.739 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 [INFO      ] 2026-05-07 00:53:32.751 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
 [WARN      ] 2026-05-07 00:53:33.110 [main] UserDAOImpl - User with login login not found
+[INFO      ] 2026-05-07 00:58:42.359 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 00:58:42.408 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 00:58:42.444 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 00:58:42.604 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 00:58:42.607 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 00:58:42.607 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 00:58:42.608 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 00:58:42.608 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 00:58:42.609 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 00:58:42.914 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 00:58:43.614 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 00:58:43.625 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 00:59:17.257 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 00:59:17.297 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 00:59:17.324 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 00:59:17.514 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 00:59:17.518 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 00:59:17.518 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 00:59:17.518 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 00:59:17.518 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 00:59:17.520 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 00:59:17.869 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 00:59:18.642 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 00:59:18.655 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@51132514] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 00:59:28.165 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 00:59:28.214 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 00:59:28.241 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 00:59:28.415 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 00:59:28.418 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 00:59:28.418 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 00:59:28.419 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 00:59:28.419 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 00:59:28.420 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 00:59:28.760 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 00:59:29.527 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 00:59:29.542 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1fee4278] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 00:59:34.914 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 00:59:34.956 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 00:59:34.983 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 00:59:35.144 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 00:59:35.147 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 00:59:35.148 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 00:59:35.148 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 00:59:35.148 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 00:59:35.149 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 00:59:35.480 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 00:59:36.215 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 00:59:36.228 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@55053f81] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 01:02:27.312 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:02:27.355 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:02:27.385 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:02:27.530 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:02:27.533 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:02:27.534 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:02:27.534 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:02:27.534 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:02:27.535 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:02:27.860 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:02:28.554 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:02:28.567 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:02:28.640 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:03:33.539 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:03:33.578 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:03:33.613 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:03:33.768 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:03:33.772 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:03:33.772 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:03:33.772 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:03:33.772 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:03:33.773 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:03:34.077 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:03:34.806 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:03:34.817 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:03:34.890 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:13:46.690 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:13:46.733 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:13:46.760 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:13:46.902 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:13:46.905 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:13:46.905 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:13:46.906 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:13:46.906 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:13:46.907 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:13:47.226 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:13:47.931 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:13:47.944 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:13:48.015 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:15:42.032 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:15:42.063 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:15:42.094 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:15:42.267 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:15:42.267 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:15:42.267 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:15:42.267 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:15:42.267 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:15:42.267 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:15:42.597 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:15:43.351 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:15:43.366 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:15:43.429 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:16:01.399 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:16:01.449 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:16:01.480 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:16:01.694 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:16:01.698 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:16:01.698 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:16:01.698 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:16:01.699 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:16:01.701 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:16:02.144 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:16:02.651 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:16:02.722 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:16:02.768 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:16:02.976 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:16:02.980 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:16:02.980 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:16:02.980 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:16:02.980 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:16:02.982 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[INFO      ] 2026-05-07 01:16:03.263 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:16:03.277 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@20864cd1] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:16:03.312 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[WARN      ] 2026-05-07 01:16:03.357 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:16:04.127 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:16:04.142 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:16:04.224 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:16:48.021 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:16:48.063 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:16:48.097 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:16:48.239 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:16:48.242 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:16:48.242 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:16:48.242 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:16:48.242 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:16:48.244 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:16:48.531 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:16:49.227 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:16:49.239 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:16:49.311 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:20:25.974 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:20:26.021 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:20:26.054 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:20:26.202 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:20:26.207 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:20:26.208 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:20:26.208 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:20:26.208 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:20:26.210 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:20:26.513 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:20:27.197 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:20:27.209 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:20:27.278 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:20:47.946 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:20:47.992 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:20:48.021 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:20:48.163 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:20:48.166 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:20:48.166 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:20:48.166 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:20:48.166 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:20:48.168 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:20:48.478 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:20:49.146 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:20:49.158 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d4a05f7] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:20:49.228 [main] UserDAOImpl - User with id 1 not found
+[INFO      ] 2026-05-07 01:55:27.435 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:55:27.472 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:55:27.501 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:55:27.644 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:55:27.659 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:55:27.659 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:55:27.659 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:55:27.659 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:55:27.659 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:55:27.973 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:55:28.664 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:55:28.680 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@919086] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 01:56:17.991 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 01:56:18.037 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 01:56:18.070 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 01:56:18.213 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 01:56:18.216 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 01:56:18.216 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 01:56:18.216 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 01:56:18.216 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 01:56:18.218 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 01:56:18.529 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 01:56:19.204 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 01:56:19.215 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 01:56:19.570 [main] UserDAOImpl - User with login alex not found
+[INFO      ] 2026-05-07 02:02:00.008 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:02:00.063 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:02:00.099 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:02:00.268 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:02:00.273 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:02:00.273 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:02:00.273 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:02:00.273 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:02:00.276 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:02:00.694 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:02:01.478 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:02:01.493 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:02:16.940 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:02:16.975 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:02:17.007 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:02:17.152 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:02:17.155 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:02:17.155 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:02:17.155 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:02:17.155 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:02:17.157 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:02:17.465 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:02:18.164 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:02:18.177 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:02:44.077 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:02:44.118 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:02:44.146 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:02:44.282 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:02:44.285 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:02:44.285 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:02:44.285 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:02:44.285 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:02:44.287 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:02:44.605 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:02:45.269 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:02:45.280 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:07:05.894 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:07:05.941 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:07:05.972 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:07:06.114 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:07:06.114 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:07:06.114 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:07:06.114 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:07:06.114 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:07:06.114 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:07:06.431 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:07:07.126 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:07:07.137 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:07:26.717 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:07:26.759 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:07:26.795 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:07:26.959 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:07:26.962 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:07:26.963 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:07:26.963 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:07:26.963 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:07:26.965 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:07:27.279 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:07:27.995 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:07:28.006 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:13:51.138 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:13:51.176 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:13:51.207 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:13:51.396 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:13:51.399 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:13:51.399 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:13:51.400 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:13:51.400 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:13:51.402 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:13:51.708 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:13:52.378 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:13:52.392 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:13:52.766 [main] UserServiceImpl - login alex exists
+[INFO      ] 2026-05-07 02:14:50.856 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:14:50.895 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:14:50.931 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:14:51.077 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:14:51.080 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:14:51.080 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:14:51.080 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:14:51.080 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:14:51.082 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:14:51.393 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:14:52.076 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:14:52.089 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:14:52.452 [main] UserServiceImpl - login alex exists
+[INFO      ] 2026-05-07 02:18:12.412 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:18:12.464 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:18:12.506 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:18:12.664 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:18:12.672 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:18:12.672 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:18:12.672 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:18:12.672 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:18:12.672 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:18:12.974 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:18:13.672 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:18:13.681 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:20:27.899 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:20:27.937 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:20:27.971 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:20:28.124 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:20:28.127 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:20:28.128 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:20:28.128 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:20:28.128 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:20:28.130 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:20:28.450 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:20:29.148 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:20:29.159 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:20:29.502 [main] UserServiceImpl - login alex exists
+[INFO      ] 2026-05-07 02:21:14.206 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:21:14.245 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:21:14.277 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:21:14.442 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:21:14.445 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:21:14.445 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:21:14.446 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:21:14.446 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:21:14.448 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:21:14.754 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:21:15.429 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:21:15.440 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:21:38.891 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:21:38.937 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:21:38.965 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:21:39.123 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:21:39.126 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:21:39.126 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:21:39.126 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:21:39.126 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:21:39.128 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:21:39.436 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:21:40.138 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:21:40.153 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:21:51.831 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:21:51.871 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:21:51.903 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:21:52.049 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:21:52.053 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:21:52.053 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:21:52.053 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:21:52.054 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:21:52.056 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:21:52.381 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:21:53.044 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:21:53.055 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:22:05.198 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:22:05.237 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:22:05.271 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:22:05.432 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:22:05.436 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:22:05.436 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:22:05.436 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:22:05.436 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:22:05.438 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:22:05.745 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:22:06.471 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:22:06.482 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:22:06.839 [main] UserDAOImpl - User with login alex not found
+[INFO      ] 2026-05-07 02:22:20.391 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:22:20.434 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:22:20.462 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:22:20.607 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:22:20.610 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:22:20.610 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:22:20.610 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:22:20.610 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:22:20.612 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:22:20.906 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:22:21.588 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:22:21.601 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:24:11.872 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:24:11.914 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:24:11.942 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:24:12.121 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:24:12.125 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:24:12.125 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:24:12.126 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:24:12.126 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:24:12.127 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:24:12.442 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:24:13.113 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:24:13.126 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:24:28.585 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:24:28.632 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:24:28.667 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:24:28.805 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:24:28.805 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:24:28.805 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:24:28.805 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:24:28.805 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:24:28.805 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:24:29.120 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:24:29.827 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:24:29.827 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:24:36.267 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:24:36.315 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:24:36.348 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:24:36.500 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:24:36.502 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:24:36.503 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:24:36.503 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:24:36.503 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:24:36.504 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:24:36.802 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:24:37.481 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:24:37.485 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:25:18.696 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:25:18.743 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:25:18.777 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:25:18.925 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:25:18.928 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:25:18.928 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:25:18.928 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:25:18.928 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:25:18.929 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:25:19.239 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:25:19.924 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:25:19.935 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:25:32.061 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:25:32.100 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:25:32.132 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:25:32.295 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:25:32.297 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:25:32.298 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:25:32.298 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:25:32.298 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:25:32.300 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:25:32.604 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:25:33.271 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:25:33.284 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:26:05.899 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:26:05.946 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:26:05.977 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:26:06.125 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:26:06.128 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:26:06.128 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:26:06.128 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:26:06.128 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:26:06.129 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:26:06.436 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:26:07.149 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:26:07.164 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:26:07.525 [main] UserServiceImpl - login alex exists
+[INFO      ] 2026-05-07 02:26:19.897 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:26:19.939 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:26:19.969 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:26:20.121 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:26:20.124 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:26:20.124 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:26:20.124 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:26:20.124 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:26:20.126 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:26:20.423 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:26:21.153 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:26:21.164 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:28:26.905 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:28:26.949 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:28:26.985 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:28:27.142 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:28:27.145 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:28:27.146 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:28:27.146 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:28:27.146 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:28:27.148 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:28:27.467 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:28:28.131 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:28:28.142 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:28:36.686 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:28:36.727 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:28:36.755 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:28:36.910 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:28:36.913 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:28:36.914 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:28:36.914 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:28:36.914 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:28:36.916 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:28:37.227 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:28:37.910 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:28:37.921 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:30:00.821 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:30:00.864 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:30:00.892 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:30:01.049 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:30:01.052 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:30:01.052 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:30:01.052 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:30:01.052 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:30:01.054 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:30:01.371 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:30:02.043 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:30:02.056 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:30:18.511 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:30:18.552 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:30:18.579 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:30:18.718 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:30:18.722 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:30:18.722 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:30:18.723 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:30:18.723 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:30:18.724 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:30:19.032 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:30:19.701 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:30:19.712 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:30:20.069 [main] UserServiceImpl - login alex exists
+[INFO      ] 2026-05-07 02:36:05.813 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:36:05.854 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:36:05.883 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:36:06.046 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:36:06.050 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:36:06.050 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:36:06.050 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:36:06.050 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:36:06.052 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:36:06.363 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:36:07.061 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:36:07.072 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:36:07.428 [main] UserServiceImpl - login alex exists
+[INFO      ] 2026-05-07 02:36:30.126 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:36:30.165 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:36:30.196 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:36:30.350 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:36:30.353 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:36:30.353 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:36:30.353 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:36:30.353 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:36:30.355 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:36:30.659 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:36:31.344 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:36:31.354 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:37:09.057 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:37:09.099 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:37:09.129 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:37:09.282 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:37:09.285 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:37:09.285 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:37:09.285 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:37:09.285 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:37:09.287 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:37:09.584 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:37:10.251 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:37:10.262 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:37:10.630 [main] UserServiceImpl - login alex exists
+[INFO      ] 2026-05-07 02:37:21.431 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:37:21.485 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:37:21.532 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:37:21.709 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:37:21.712 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:37:21.712 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:37:21.713 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:37:21.713 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:37:21.714 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:37:22.043 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:37:22.811 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:37:22.824 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7cd3e0da] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:37:23.206 [main] UserServiceImpl - login alex exists
+[INFO      ] 2026-05-07 02:37:34.514 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:37:34.566 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:37:34.593 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:37:34.785 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:37:34.788 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:37:34.788 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:37:34.788 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:37:34.788 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:37:34.790 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:37:35.142 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:37:35.933 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:37:35.946 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7adae08e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:45:53.725 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:45:53.768 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:45:53.797 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:45:53.938 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:45:53.941 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:45:53.942 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:45:53.942 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:45:53.942 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:45:53.944 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:45:54.250 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:45:54.930 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:45:54.941 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@919086] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[INFO      ] 2026-05-07 02:47:34.336 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:47:34.380 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:47:34.415 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:47:34.566 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:47:34.569 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:47:34.569 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:47:34.570 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:47:34.570 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:47:34.571 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:47:34.883 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:47:35.560 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:47:35.571 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@919086] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:47:35.918 [main] UserServiceImpl - User with login ale not found
+[INFO      ] 2026-05-07 02:48:01.511 [main] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: DogsUnit]
+[INFO      ] 2026-05-07 02:48:01.560 [main] Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+[INFO      ] 2026-05-07 02:48:01.593 [main] RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[WARN      ] 2026-05-07 02:48:01.739 [main] DriverManagerConnectionProviderImpl - HHH10001002: Using built-in connection pool (not intended for production use)
+[INFO      ] 2026-05-07 02:48:01.742 [main] DriverManagerConnectionProviderImpl - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+[INFO      ] 2026-05-07 02:48:01.743 [main] DriverManagerConnectionProviderImpl - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/dogs_db?serverTimezone=UTC]
+[INFO      ] 2026-05-07 02:48:01.743 [main] DriverManagerConnectionProviderImpl - HHH10001001: Connection properties: {password=****, user=root}
+[INFO      ] 2026-05-07 02:48:01.743 [main] DriverManagerConnectionProviderImpl - HHH10001003: Autocommit mode: false
+[INFO      ] 2026-05-07 02:48:01.745 [main] DriverManagerConnectionProviderImpl$PooledConnections - HHH10001115: Connection pool size: 20 (min=1)
+[WARN      ] 2026-05-07 02:48:02.054 [main] DialectFactoryImpl - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO      ] 2026-05-07 02:48:02.749 [main] JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO      ] 2026-05-07 02:48:02.764 [main] DdlTransactionIsolatorNonJtaImpl - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@919086] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+[WARN      ] 2026-05-07 02:48:03.109 [main] UserServiceImpl - User with login ale not found

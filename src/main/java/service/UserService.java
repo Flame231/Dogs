@@ -11,7 +11,7 @@ public interface UserService {
     void updateUser(UserDTO userDTO,String newPass);
     void deleteUser(UserDTO userDTO);
     boolean register (String login,String passWord) throws LoginAlreadyExists;
-    void login (String login,String passWord) throws NoSuchFieldException, WrongPassword;
+    void login (String login,String passWord) throws WrongPassword;
     List<UserDTO> getAllUsers();
     UserDTO findUserByLogin(String login);
     UserDTO findUserById(Long id);

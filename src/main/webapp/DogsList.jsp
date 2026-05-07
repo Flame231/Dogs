@@ -57,5 +57,10 @@
 <a href="<%=request.getContextPath()%>/ShowDogList?currentPage=<%=i%>"><%if (i == currentPage) {%><big><%=i%>
 </big><%} else {%><%=i%><%}%></a>&nbsp
 <%}%>
+
+<a href="RegisterForm.jsp">Registration</a>
+<a href="SearchByIdForm.jsp">Search By Id</a>
+<a href="SearchByLoginForm.jsp">Search By Login</a>
+<a href="LoginForm.jsp">Authorization</a>
 </body>
 </html>

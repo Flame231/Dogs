@@ -29,7 +29,7 @@ public class UserDAOImpl extends DAOImpl<User> implements UserDAO {
     }
 
     @Override
-    public User findUserById(Long id) throws UserNotFound{
+    public User findUserById(Long id) throws NullPointerException{
         User user = get(id);
         if (user == null) {
             log.warn("User with id {} not found", id);

@@ -8,4 +8,23 @@
         <welcome-file>ShowDogList</welcome-file>
     </welcome-file-list>
 
+        <error-page>
+            <exception-type>exception.LoginAlreadyExists</exception-type>
+            <location>/LoginAlreadyExist.jsp</location>
+        </error-page>
+
+    <error-page>
+        <exception-type>exception.UserNotFound</exception-type>
+        <location>/UserNotFound.jsp</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>exception.WrongPassword</exception-type>
+        <location>/WrongPassword.jsp</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>exception.WrongLogin</exception-type>
+        <location>/WrongLogin.jsp</location>
+    </error-page>
 </web-app>

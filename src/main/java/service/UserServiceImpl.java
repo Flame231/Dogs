@@ -5,6 +5,7 @@ import DAO.UserDAOImpl;
 import DTO.UserDTO;
 import exception.LoginAlreadyExists;
 import exception.UserNotFound;
+import exception.WrongLogin;
 import exception.WrongPassword;
 import jakarta.persistence.NoResultException;
 import lombok.extern.log4j.Log4j2;
@@ -70,18 +71,23 @@ public class UserServiceImpl implements UserService, EntityConverter<UserDTO, Us
     }
 
     @Override
-    public void login(String login, String passWord) throws NoSuchFieldException, WrongPassword {
-        User user = userDAO.findUserByLogin(login);
-        if (user.getLogin().equals(login)) {
-            if (PasswordHasher.checkPass(passWord, user.getPassWord())) {
-                log.info("successfully entered {}", user);
-            } else {
-                log.warn("Wrong passWord {} by login {}", passWord, login);
-                throw new WrongPassword("Wrong Password");
+    public void login(String login, String passWord) throws WrongPassword,WrongLogin{
+        try {
+            User user = userDAO.findUserByLogin(login);
+            if (user.getLogin().equals(login)) {
+                if (PasswordHasher.checkPass(passWord, user.getPassWord())) {
+                    log.info("successfully entered {}", user);
+                } else {
+                    log.warn("Wrong passWord {} by login {}", passWord, login);
+                    throw new WrongPassword("Wrong Password");
+                }
             }
-        } else {
+        } catch (NoResultException e) {
             log.warn("Wrong login{}", login);
+            throw new WrongLogin("Wrong login");
         }
+
+
     }
 
     @Override
@@ -101,7 +107,13 @@ public class UserServiceImpl implements UserService, EntityConverter<UserDTO, Us
     }
 
     @Override
-    public UserDTO findUserById(Long id) throws UserNotFound{
-        return convertToDTO(userDAO.findUserById(id));
+    public UserDTO findUserById(Long id) throws UserNotFound {
+        try {
+            return convertToDTO(userDAO.findUserById(id));
+        } catch (NullPointerException e) {
+            log.warn("User not founded by id {}",id);
+            throw new UserNotFound("User not found by id");
+        }
+
     }
 }
